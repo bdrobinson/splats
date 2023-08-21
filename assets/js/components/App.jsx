@@ -4,11 +4,9 @@ import styled from 'styled-components'
 
 import Root from './Root.jsx'
 import Admin from './Admin.jsx'
-import background from '../../images/background_2022.png'
 
 const Div = styled.div`
-    background-image: url(${background});
-    background-repeat: repeat;
+    background-color: #0a3440;
     height: 100%;
     position: fixed;
     width: 100%;
